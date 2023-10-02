@@ -43,4 +43,4 @@ The goal of this project is to make a great-looking website, with a responsive l
 The amazing people who have brought this project to life!
 
 ![image](https://contrib.rocks/image?repo=huamanraj/covid_website)
-![image](https://github.com/mezotv.png)
+
