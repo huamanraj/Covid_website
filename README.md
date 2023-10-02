@@ -2,10 +2,13 @@
 
 The goal of this project is to make a great-looking website, with a responsive landing page and other pages! We are part of Hacktoberfest 2023, successful contributors will be rewarded with amazing rewards by the Hacktoberfest team.
 
+![hf10_horz_fcl_rgb](https://github.com/mezotv/Covid_website/assets/68947960/cb7d183a-0875-4180-b86f-b0028659e823)
+
+## Design
 ![Logo](https://imgur.com/tVXZwjE.png)
 
 ## Quick Links
-
+  - [Design](#design)
   - [Quick Links](#quick-links)
   - [Installation](#installation)
   - [How to Contribute](#contribute)
