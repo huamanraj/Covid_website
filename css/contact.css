@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.heading{
+    text-align: center;
+    margin: 4rem 0;
+    color: rgba(111,66,193,255);
+    font-size: 2rem;
+}
+
+form input{
+    display: block;
+}
+
+form button{
+    display: block;
+}
+
+form input{
+    padding: 9px 6px;
+    width: 25rem;
+    outline: none;
+    color: black;
+    margin-bottom: 12px;
+    border: 1px solid rgba(111,66,193,255);
+    border-radius: 12px;
+}
+
+form textarea{
+    padding: 9px 6px;
+    border-radius: 12px;
+    width: 25rem;
+    outline: none;
+    color: black;
+    margin-bottom: 12px;
+    border: 1px solid rgba(111,66,193,255)ck;
+}
+
+form button{
+    padding: 14px 15px;
+    font-weight: bold;
+    background: rgba(111,66,193,255);
+    color: white;
+    border: 1px solid;
+    border-radius: 4rem;
+}
+
+form button:hover{
+    background: rgba(101,56,191,252);
+    cursor: pointer;
+}
