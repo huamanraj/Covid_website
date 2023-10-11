@@ -7,13 +7,14 @@ form{
     border-radius: 10px;
     box-shadow: 5px 10px rgba(0, 0, 0, 0.612);
     color: white;
-
+    padding: 15px;
 }
+
 form:hover{
     box-shadow: 10px 15px rgba(0, 0, 0, 0.735);
 }
 .head{
-    margin-left: 45vh;
+    margin-left: 38vh;
 }
 .body{
     padding-left: 20px;
@@ -35,15 +36,16 @@ input{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 .pair{
     display: flex;
+    justify-content: center;
 }
 
 button{
   margin-top: 20px;
-  margin-left: 20vh;
+  margin-left: 18vh;
     width: 430px;
     height: 45px;
     appearance: none;
@@ -51,6 +53,7 @@ button{
     font-size: 1.5rem;
     font-weight: 600;
     border-radius: 20px;
+    text-align: center;
 }
 button:hover{
     background-color: orange;
@@ -77,8 +80,8 @@ button:hover{
 
   .accounts{
     display: flex;
-    margin-left: 44vh;
     font-size: 1.5rem;
+    justify-content: space-around;
   }
   .accounts i{
     margin-left: 10px;
