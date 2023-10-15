@@ -12,6 +12,67 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/Covid_website/static/css/auth.css">
+    <style>
+        body {
+    transition: background-color 0.5s;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.theme-switch-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.theme-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+    </style>
 </head>
 <body>
     <div class="main">
@@ -25,8 +86,22 @@
                     <a href="#">About</a>
                     <a href="#">Symptoms</a>
                     <a href="#">Contacts</a>
+                    <div class="theme-switch-container">
+                        <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox">
+                            <div class="slider round"></div>
+                        </label>
+                        <span class="theme-text"></span>
+                    </div>
                 </div>
             </nav>
+            <script>
+                const checkbox = document.getElementById('checkbox');
+                checkbox.addEventListener('change', () => {
+                    document.body.classList.toggle('dark-mode');
+                });
+
+            </script>
             <div class="intro">
                 <p>Covid 19 Awareness</p>
                 <h1>Stay Safe. Stay Home.</h1>
