@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 
+Dark-Light Mode
+*/
+
+body {
+    transition: background-color 0.5s;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.theme-switch-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.theme-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* 
+Basic Styling
+*/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #F0ECF9;
+    color: black;
+}
+
+h1 {
+    color: #540aae;
+}
+
+.third-section {
+    background-color: #F0ECF9;
+    color: black;
+}
+
+.fifth-section {
+    background-color: #F0ECF9;
+    color: black;
+}
+
+footer {
+    background-color: #F0ECF9;
+    color: black;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+    color: #540aae;
+}
+
+nav a {
+    color: grey;
+}
+
+.sixth-section p {
+    color: #540aae;
+}
