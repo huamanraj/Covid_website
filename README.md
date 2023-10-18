@@ -27,6 +27,15 @@ The goal of this project is to make a great-looking website, with a responsive l
 
 4. A full-size preview of how the website should look can be found [here](https://github.com/huamanraj/Covid_website/blob/main/Design.png).
 
+## Steps to use Docker
+
+```shell
+docker build -t covid-website .
+```
+
+```shell
+docker run -itd -p 80:80 covid-website
+```
 
 # Contribute
 
