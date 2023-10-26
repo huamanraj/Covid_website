@@ -3,149 +3,178 @@
 
 /* Dark-Light Mode */
 body {
-    transition: background-color 0.5s;
+	transition: background-color 0.5s;
 }
 
 .dark-mode {
-    background-color: #333;
-    color: #fff;
+	background-color: #333;
+	color: #fff;
 }
 
 /* Theme Switch Container */
 .theme-switch-container {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    display: flex;
-    align-items: center;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	display: flex;
+	align-items: center;
 }
 
 /* Theme Switch Styles */
 .theme-switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
 }
 
 .theme-switch input {
-    display: none;
+	display: none;
 }
 
 .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    transition: 0.4s;
-    border-radius: 34px;
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	transition: 0.4s;
+	border-radius: 34px;
 }
 
 .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: 0.4s;
-    border-radius: 50%;
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	transition: 0.4s;
+	border-radius: 50%;
 }
 
-input:checked + .slider {
-    background-color: #2196F3;
+input:checked+.slider {
+	background-color: #2196F3;
 }
 
-input:checked + .slider:before {
-    transform: translateX(26px);
+input:checked+.slider:before {
+	transform: translateX(26px);
 }
 
 /* Basic Styling */
 body {
-    font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 .header {
-    background-color: #F0ECF9;
-    color: black;
+	background-color: #F0ECF9;
+	color: black;
 }
 
 h1 {
-    color: #540aae;
+	color: #540aae;
 }
 
 .third-section {
-    background-color: #F0ECF9;
-    color: black;
+	background-color: #F0ECF9;
+	color: black;
 }
 
 .fifth-section {
-    background-color: #F0ECF9;
-    color: black;
+	background-color: #F0ECF9;
+	color: black;
 }
 
 footer {
-    background-color: #F0ECF9;
-    color: black;
+	background-color: #F0ECF9;
+	color: black;
 }
 
 a {
-    all: unset;
-    cursor: pointer;
-    color: #540aae;
+	all: unset;
+	cursor: pointer;
+	color: #540aae;
 }
 
 nav a {
-    color: grey;
+	color: grey;
 }
 
 .sixth-section p {
-    color: #540aae;
+	color: #540aae;
 }
 
-    /* Style the footer section */
-    .footer-section.about {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        border-top: 2px solid #ff9900;
-        text-align: center;
-    }
+.footer-section.about {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	border-top: 2px solid #ff9900;
+	text-align: center;
+}
 
-    /* Style the About Us heading */
-    .footer-section.about h3 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
+.footer-section.about h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
 
-    /* Style the paragraph text */
-    .footer-section.about p {
-        font-size: 16px;
-        line-height: 1.5;
-        margin-bottom: 20px;
-    }
+.footer-section.about p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
 
-    /* Style the social icons */
-    .footer-section.about .social-icons a {
-        display: inline-block;
-        margin-right: 10px;
-    }
+.footer-section.about .social-icons a {
+	display: inline-block;
+	margin-right: 10px;
+}
 
-    /* Style the social icons images */
-    .footer-section.about .social-icons img {
-        width: 32px;
-        height: 32px;
-        border: 2px solid #ff9900;
-        border-radius: 50%;
-        transition: transform 0.3s ease-in-out;
-    }
+.footer-section.about .social-icons img {
+	width: 32px;
+	height: 32px;
+	border: 2px solid #ff9900;
+	border-radius: 50%;
+	transition: transform 0.3s ease-in-out;
+}
 
-    /* Hover effect for social icons */
-    .footer-section.about .social-icons img:hover {
-        transform: scale(1.2);
-    }
+.footer-section.about .social-icons img:hover {
+	transform: scale(1.2);
+}
 
+.footer-section {
+	text-align: center;
+	padding: 20px;
+}
+
+.footer-section h3 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+.footer-section ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.footer-section ul li {
+	margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+	text-decoration: none;
+	color: #007BFF;
+	font-weight: 600;
+}
+
+.footer-section ul li a:hover {
+	color: #ff9900;
+}
+
+@media (max-width: 768px) {
+	.footer-section {
+		padding: 10px;
+	}
+}
