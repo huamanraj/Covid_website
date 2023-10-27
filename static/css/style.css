@@ -1,9 +1,63 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* remove default styles */
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
 /* Dark-Light Mode */
 body {
 	transition: background-color 0.5s;
+}
+
+.header{
+	padding:15px  100px 100px ;
+	display: flex;
+	flex-direction: column;
+	gap:100px;
+}
+/* Navbar styles */
+.navigation-link a{color:grey;}
+#navbar{
+	/* height: 50px; */
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right:50px;
+
+}
+.logo{
+	font-size: 2rem;
+	font-weight: 500;
+}
+.navigation-link{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	gap:20px;
+	/* border: solid; */
+}
+
+
+a {
+	all: unset;
+	cursor: pointer;
+	color: #540aae;
+}
+
+.left a {
+	color: rgb(255, 255, 255);
+	background-color:#540aae;
+	border-radius:20px;
+	padding:10px;
+	/* color:grey; */
+	/* text-transform: capitalize; */
+}
+.left a:hover {
+	background-color:#670cd6;
 }
 
 .dark-mode {
@@ -13,9 +67,8 @@ body {
 
 /* Theme Switch Container */
 .theme-switch-container {
-	position: fixed;
-	top: 20px;
-	right: 20px;
+	position: absolute;
+	right:20px;
 	display: flex;
 	align-items: center;
 }
@@ -93,15 +146,6 @@ footer {
 	color: black;
 }
 
-a {
-	all: unset;
-	cursor: pointer;
-	color: #540aae;
-}
-
-nav a {
-	color: grey;
-}
 
 .sixth-section p {
 	color: #540aae;
