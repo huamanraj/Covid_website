@@ -5,7 +5,7 @@ The goal of this project is to make a great-looking website, with a responsive l
 ![hacktoberfest](https://github.com/mezotv/Covid_website/assets/68947960/cb7d183a-0875-4180-b86f-b0028659e823)
 
 ## Design
-![design](https://github.com/mezotv/Covid_website/assets/68947960/fbc5a1dc-4d07-4897-995a-cd4e36dc145e)
+![design](https://github.com/huamanraj/Covid_website/blob/main/static/images/Design.png)
 
 
 ## Quick Links
