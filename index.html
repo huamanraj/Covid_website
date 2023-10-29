@@ -54,20 +54,20 @@
             <h1>Coronavirus Statistics</h1>
             <p>In the wake of the global COVID-19 pandemic, understanding the statistics surrounding the virus has become paramount. From infection rates to recovery figures, these statistics serve as a crucial compass in guiding our response to the ongoing health crisis. This short introduction invites us to explore the numerical landscape of COVID-19, shedding light on the data that shapes our perception and informs strategies for safeguarding public health.</p>
             <div class="stats">
-               <div class="active-case">
+               <div class="cases">
                   <i class='bx bxs-cog' ></i>
-                  <p>05,856,25</p>
-                  <p>Active Case</p>
+                  <p class="statnum"><b>05,856,25</b></p>
+                  <p class="casetyp">ACTIVE CASE</p>
                </div>
-               <div class="death-case">
+               <div class="cases">
                   <i class='bx bxs-cog' ></i>
-                  <p>00,056,25</p>
-                  <p>Death Case</p>
+                  <p class="statnum"><b>00,056,25</b></p>
+                  <p class="casetyp">DEATH CASE</p>
                </div>
-               <div class="recovered-case">
+               <div class="cases">
                   <i class='bx bxs-cog' ></i>
-                  <p>95,856,25</p>
-                  <p>Recovered Case</p>
+                  <p class="statnum"><b>95,856,25</b></p>
+                  <p class="casetyp">RECOVERED CASE</p>
                </div>
             </div>
          </section>
@@ -237,12 +237,22 @@
                <p>How Coronavirus Is Very Contiguous</p>
             </div>
          </section>
-      </div>
+         <!-- <div id="footerContainer"></div>
+
+         <script>
+             // Use JavaScript to load and insert the footer content
+             fetch('footer.html')
+                 .then(response => response.text())
+                 .then(data => {
+                     document.getElementById('footerContainer').innerHTML = data;
+                 })
+                 .catch(error => console.error(error));
+         </script>
+          </div> -->
       <footer class="site-footer">
-         <div class="footer-container">
             <div class="footer-section about">
                <h3>About Us</h3>
-               <p>Your go-to hub for comprehensive COVID-19 information. Navigate the complexities of the pandemic with our expertly curated resources, ranging from insightful articles and breaking news to practical guides on protection and community engagement.</p>
+               <p>Your go-to hub for comprehensive COVID-19 information. </p>
                <div class="social-icons">
                   <a href="#"><img src="/static/images/fb.svg" alt="Facebook"></a>
                   <a href="#"><img src="/static/images/ig.png" alt="Instagram"></a>
@@ -272,12 +282,14 @@
             <div class="footer-section resources">
                <h3>Resources</h3>
                <ul>
+                  <li><a href="https://www.who.int/">WHO Website</a></li>
                   <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html">CDC Website</a></li>
                   <li><a href="https://www.mohfw.gov.in/">Gov Website</a></li>
                   <li><a href="https://doh.wa.gov/emergencies/covid-19">DOH Website</a></li>
                </ul>
             </div>
          </div>
-      </footer>
+      </footer> 
+      
    </body>
 </html>
