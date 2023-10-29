@@ -11,6 +11,7 @@
 /* Dark-Light Mode */
 body {
 	transition: background-color 0.5s;
+	
 }
 
 .header{
@@ -126,11 +127,23 @@ body {
 	background-color: #F0ECF9;
 	color: black;
 }
+h1{
+	color: #6520b9;
 
-h1 {
-	color: #540aae;
 }
-
+.statistics-section h1 {
+	color: #6520b9;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+}
+.statistics-section p{
+	text-align: center;
+	padding: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
 .third-section {
 	background-color: #F0ECF9;
 	color: black;
@@ -146,6 +159,38 @@ footer {
 	color: black;
 }
 
+.stats{
+	margin: 50px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	gap: 200px;
+}
+.cases{
+	
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+	text-align: center;
+}
+.cases i{
+	color: #540aae;
+	justify-content: center;
+	align-items: center;
+	font-size: 100px;
+	margin-bottom: 10px;
+}
+.cases .statnum{
+	color: black;
+	font-size: 30px;
+	align-items: center;
+	justify-content: center;
+}
+.cases .casetyp{
+	font-size: 14px;
+	color: #464545;
+}
 
 .sixth-section p {
 	color: #540aae;
