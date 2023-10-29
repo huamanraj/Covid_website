@@ -49,11 +49,30 @@ a {
 	color: #540aae;
 }
 
+.left .topHeading{
+	color: #670cd6;
+}
+
+.left h1{
+	font-size: 45px;
+	/* margin-bottom: 20px; */
+}
+
+.left .text{
+	color: grey;
+	margin: 20px 0 50px 0;
+	font-size: 15px;
+	font-weight: 300;
+}
+
 .left a {
 	color: rgb(255, 255, 255);
 	background-color:#540aae;
-	border-radius:20px;
-	padding:10px;
+	border-radius:40px;
+	padding:15px 25px;
+	margin: 20px 0;
+	font-size: 15px;
+	font-weight: 300;
 	/* color:grey; */
 	/* text-transform: capitalize; */
 }
