@@ -178,9 +178,7 @@ h1{
 .cardsec p{
 	font-size: 12px;
 }
-.card-right {
-	flex: 1;
-}
+
 .mid-section navigation{
 	display: flex;
 	
@@ -190,9 +188,25 @@ h1{
 	color: black;
 }
 
-.fifth-section {
-	background-color: #F0ECF9;
-	color: black;
+.fourth-section{
+	margin-top: 40px;
+}
+.text-only{
+	display: flex;
+	gap:200px;
+	justify-content: center;
+	margin: 30px;
+
+}
+.text-only ul{
+	list-style-type: none ;
+	line-height: 3.5em; 
+
+
+}
+.fourth-section h1{
+	justify-content: center;
+	text-align: center;
 }
 
 footer {
