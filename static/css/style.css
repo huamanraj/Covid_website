@@ -144,6 +144,47 @@ h1{
 	margin-left: 50px;
 	margin-right: 50px;
 }
+.mid-Section{
+	margin-top: 40px;
+	margin-bottom: 30px;
+    padding: 20px;
+	margin-left: 30px;
+	padding-right: 30px;
+    display: flex;
+	position: relative;
+    align-items: center;
+	gap: 50px;
+	margin-right: 80px;
+}
+
+.cardsec{
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+}
+.cardsec .bx{
+	color: #540aae;
+	background-size: cover;
+	font-size: 100px;
+}
+.cardsec .cardright{
+	margin-left: 20px;
+	text-align: justify;
+}
+.cardsec .secname{
+	color: #540aae;
+	font-size: 20px;
+}
+.cardsec p{
+	font-size: 12px;
+}
+.card-right {
+	flex: 1;
+}
+.mid-section navigation{
+	display: flex;
+	
+}
 .third-section {
 	background-color: hsl(258, 52%, 95%);
 	color: black;
