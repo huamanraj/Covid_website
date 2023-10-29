@@ -196,11 +196,17 @@ footer {
 	color: #540aae;
 }
 
-.footer-section.about {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
+
+.site-footer{
+	display: flex;
+	width: 100%;
 	border-top: 2px solid #ff9900;
+	margin-top: 50px;
+	gap: 100px;
+}
+.footer-section.about {
+	color: #000000;
+	padding: 20px;
 	text-align: center;
 }
 
@@ -223,7 +229,6 @@ footer {
 .footer-section.about .social-icons img {
 	width: 32px;
 	height: 32px;
-	border: 2px solid #ff9900;
 	border-radius: 50%;
 	transition: transform 0.3s ease-in-out;
 }
@@ -233,7 +238,7 @@ footer {
 }
 
 .footer-section {
-	text-align: center;
+	text-align: left;
 	padding: 20px;
 }
 
@@ -250,12 +255,13 @@ footer {
 
 .footer-section ul li {
 	margin-bottom: 5px;
+	text-align: left;
 }
 
 .footer-section ul li a {
 	text-decoration: none;
-	color: #007BFF;
-	font-weight: 600;
+	color: #540aae;
+	font-weight: 400;
 }
 
 .footer-section ul li a:hover {

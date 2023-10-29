@@ -237,12 +237,22 @@
                <p>How Coronavirus Is Very Contiguous</p>
             </div>
          </section>
-      </div>
+         <!-- <div id="footerContainer"></div>
+
+         <script>
+             // Use JavaScript to load and insert the footer content
+             fetch('footer.html')
+                 .then(response => response.text())
+                 .then(data => {
+                     document.getElementById('footerContainer').innerHTML = data;
+                 })
+                 .catch(error => console.error(error));
+         </script>
+          </div> -->
       <footer class="site-footer">
-         <div class="footer-container">
             <div class="footer-section about">
                <h3>About Us</h3>
-               <p>Your go-to hub for comprehensive COVID-19 information. Navigate the complexities of the pandemic with our expertly curated resources, ranging from insightful articles and breaking news to practical guides on protection and community engagement.</p>
+               <p>Your go-to hub for comprehensive COVID-19 information. </p>
                <div class="social-icons">
                   <a href="#"><img src="/static/images/fb.svg" alt="Facebook"></a>
                   <a href="#"><img src="/static/images/ig.png" alt="Instagram"></a>
@@ -272,12 +282,14 @@
             <div class="footer-section resources">
                <h3>Resources</h3>
                <ul>
+                  <li><a href="https://www.who.int/">WHO Website</a></li>
                   <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html">CDC Website</a></li>
                   <li><a href="https://www.mohfw.gov.in/">Gov Website</a></li>
                   <li><a href="https://doh.wa.gov/emergencies/covid-19">DOH Website</a></li>
                </ul>
             </div>
          </div>
-      </footer>
+      </footer> 
+      
    </body>
 </html>
