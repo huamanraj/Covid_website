@@ -274,41 +274,10 @@ footer {
 .site-footer{
 	display: flex;
 	width: 100%;
-	border-top: 2px solid #ff9900;
+	/* border-top: 2px solid #ff9900; */
 	margin-top: 50px;
+	padding: 40px 30px 40px 90px;
 	gap: 100px;
-}
-.footer-section.about {
-	color: #000000;
-	padding: 20px;
-	text-align: center;
-}
-
-.footer-section.about h3 {
-	font-size: 24px;
-	margin-bottom: 10px;
-}
-
-.footer-section.about p {
-	font-size: 16px;
-	line-height: 1.5;
-	margin-bottom: 20px;
-}
-
-.footer-section.about .social-icons a {
-	display: inline-block;
-	margin-right: 10px;
-}
-
-.footer-section.about .social-icons img {
-	width: 32px;
-	height: 32px;
-	border-radius: 50%;
-	transition: transform 0.3s ease-in-out;
-}
-
-.footer-section.about .social-icons img:hover {
-	transform: scale(1.2);
 }
 
 .footer-section {
@@ -318,8 +287,9 @@ footer {
 
 .footer-section h3 {
 	font-size: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	color: #333;
+	font-weight: 600;
 }
 
 .footer-section ul {
@@ -340,6 +310,44 @@ footer {
 
 .footer-section ul li a:hover {
 	color: #ff9900;
+}
+
+.footer-section.about {
+	width: 31%;
+	color: #000000;
+	padding: 20px;
+	text-align: left;
+}
+
+.footer-section.about p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+.footer-section.about .social-icons a {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.footer-section.about .social-icons img {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	transition: transform 0.3s ease-in-out;
+}
+
+.footer-section.about .social-icons .youtube{
+	width: 42px;
+	height: 32px;
+}
+
+.footer-section.about .social-icons .instagram{
+	border-radius: 30% !important;
+}
+
+.footer-section .about .social-icons img:hover {
+	transform: scale(1.2);
 }
 
 @media (max-width: 768px) {
